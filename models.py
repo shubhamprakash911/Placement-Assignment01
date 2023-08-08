@@ -14,3 +14,4 @@ class Company(db.Model):
     company_name = db.Column(db.String(100), nullable=False)
     location = db.Column(db.String(100), nullable=False)
     founded_year = db.Column(db.Integer, nullable=False)
+
